@@ -1,0 +1,25 @@
+.section-header
+{
+  margin-top: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  background-color: #F9F9FAFF;
+  clip-path: polygon(0 0, 100% 15px, 100% 100%, 0 calc(100% - 15px));
+}
+
+.section-header-title
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #04121d;
+  margin: auto;
+}
+
+.section-header-subtitle
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #04121d;
+}

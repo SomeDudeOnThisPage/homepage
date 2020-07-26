@@ -1,0 +1,16 @@
+.navbar-brand
+{
+  width: 30px;
+  height: 40px;
+}
+
+nav.navbar
+{
+  background: #04121d33;
+  transition: 0.3s;
+}
+
+nav.navbar:hover
+{
+  background: #04121dff;
+}

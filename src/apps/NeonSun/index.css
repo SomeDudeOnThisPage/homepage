@@ -1,0 +1,57 @@
+html
+{
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parallax-cover
+{
+  background: #04121d;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.parallax-static-center
+{
+  background: #00000000;
+  display: block;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+}
+
+.content
+{
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 15px, 100% 100%, 0% 100%);
+  background: #04121DFF;/*#F9F9FA;*/
+}
+
+.Typewriter
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #04121d;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#deer
+{
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}

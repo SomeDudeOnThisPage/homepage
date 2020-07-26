@@ -1,0 +1,13 @@
+.footer
+{
+  width: 100%;
+  background-color: #F9F9FAFF;
+  clip-path: polygon(50% 25px, 100% 0, 100% 100%, 0 100%, 0 0);
+  padding: 3rem 25% 1rem;
+}
+
+.footer a
+{
+  text-decoration: none;
+  color: #04121d;
+}

@@ -1,0 +1,16 @@
+.content-card
+{
+  color: #04121d;
+  background-color: #F9F9FAFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-card > .card-title
+{
+  font-weight: bold;
+}
+
+.content-card > .card-body
+{
+
+}

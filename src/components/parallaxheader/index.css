@@ -1,0 +1,47 @@
+.parallax
+{
+  background: #c0cedb;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -960px;
+  box-sizing: border-box;
+}
+
+.parallax-layer
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.parallax-img
+{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.parallax-overlay
+{
+  background: #00000000;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -960px;
+  box-sizing: border-box;
+}
